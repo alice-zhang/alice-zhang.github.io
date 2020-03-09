@@ -1,0 +1,60 @@
+body {
+    background-color: #f6ebd0;
+    color: #542c38;
+	font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.container {
+    margin: 85px auto;
+    width: max-content;
+}
+
+.heading {
+    font-size: 30px;
+    letter-spacing: .07em;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.heading a {
+    color: #542c38;
+    text-decoration: none;
+}
+
+.heading a:hover {
+    color: #2c4554;
+}
+
+.sub-heading {
+    font-size: 15px;
+    letter-spacing: .07em;
+    line-height: .3em;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.image-caption {
+    display: block;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.image-caption img {
+    width: 400px;
+}
+
+.image-caption .caption {
+    display: none;
+    font-size: 15px;
+    position: absolute;
+    top: 45%;
+    right: 0;
+}
+
+.image-caption:hover img {
+    opacity: .1;
+}
+
+.image-caption:hover .caption {
+    display: inline;
+}
