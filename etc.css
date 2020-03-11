@@ -32,12 +32,14 @@ body {
     width: 1300px;
 }
 
+/*
 .placeholder {
     display: inline-block;
     font-size: 20px;
     font-style: italic;
     vertical-align: top;
 }
+*/
 
 .list {
     display: inline-block;
@@ -46,7 +48,7 @@ body {
 }
 
 .list .sub-heading {
-    font-size: 20px;
+    font-size: 18px;
     font-style: italic;
     letter-spacing: .07em;
     margin: 0;
@@ -58,8 +60,13 @@ body {
     display: block;
 }
 
+.list._grouped .group .item:hover, .list._grouped .group .caption:hover {
+    color: #542c38;
+}
+
 .list.red .group:hover {
     background-color: #cd8b7e;
+    /* background-color: rgba(205,139,126, 0.5); */
     color: #2c4554;
 }
 
@@ -113,13 +120,14 @@ body {
 }
 
 .list .item {
-    font-size: 15px;
+    font-size: 14px;
     margin: 5px auto 5px 12px;
 }
 
 .list .caption {
     font-size: 15px;
-    font-style: italic;
+    /* font-style: italic; */
     margin: 5px 12px 5px auto;
+    /* margin: 5px auto 5px 50px; */
     text-align: right;
 }

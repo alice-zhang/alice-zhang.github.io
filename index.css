@@ -1,5 +1,7 @@
 body {
     background-color: #f6ebd0;
+    /* background-color: #f3d7ad; */
+    /* background-color: #f4d7b0; */
     color: #542c38;
 	font-family: 'Quattrocento Sans', sans-serif;
 	line-height: 1.61em;
@@ -42,8 +44,8 @@ body {
 
 .box, .image {
     display: inline-block;
-    font-size: 15px;
-    margin: 20px 0;
+    font-size: 14px;
+    margin: 18px 0;
     width: 200px;
     height: 80px;
     line-height: 80px;
@@ -58,8 +60,8 @@ body {
     /* line-height */
 }
 
-.ginger img {
-    margin-top: -45px;
+.breakfast-at-tiffanys img {
+    margin-top: -23px;
 }
 
 .igor img {
@@ -74,12 +76,25 @@ body {
     margin-top: -75px;
 }
 
-.kevin img {
+.borat img {
+    margin-top: -8px;
+}
+
+.rushmore img {
     margin-top: -20px;
 }
 
+.strokes img {
+    margin-top: -15px;
+}
+
+.blond img {
+    margin-top: -40px;
+}
+
 .yellow {
-    background-color: #f2ea62; 
+    /* background-color: #f2ea62;  */
+    background-color: #efe774;
 }
 
 .blue {
@@ -91,7 +106,8 @@ body {
 }
 
 .orange {
-    background-color: #d8aa66;
+    /* background-color: #d8aa66; */
+    background-color: #dfb271;
 }
 
 .mauve {
@@ -103,5 +119,10 @@ body {
 }
 
 .turquoise {
-    background-color: #84bd99;
+    /* background-color: #84bd99; */
+    background-color: #8db89c;
+}
+
+.purple {
+    background-color: #b99aa9;
 }
