@@ -75,12 +75,12 @@ body {
 }
 
 .list.orange .item:hover {
-    background-color: #d8aa66;
+    background-color: #dfb271;
     color: #2c4554;
 }
 
 .list.orange .sub-heading:hover {
-    color: #d8aa66;
+    color: #dfb271;
 }
 
 .list.turquoise .item:hover {
@@ -117,6 +117,15 @@ body {
 
 .list.mauve .sub-heading:hover {
     color: #bb9a8b;
+}
+
+.list.purple .item:hover {
+    background-color: #b99aa9;
+    color: #2c4554;
+}
+
+.list.purple .sub-heading:hover {
+    color: #b99aa9;
 }
 
 .list .item {
