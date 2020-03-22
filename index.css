@@ -50,8 +50,7 @@ body {
     height: 80px;
     line-height: 80px;
     text-align: center;
-    overflow: hidden;
-    
+    overflow: hidden; 
 }
 
 .box-text-multi {

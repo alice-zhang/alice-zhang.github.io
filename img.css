@@ -34,10 +34,23 @@ body {
     text-align: left;
 }
 
+.date-container {
+    width: max-content;
+    max-width: 67%;
+}
+
 .images-container {
+    /*
     display: block;
     margin-bottom: 25px;
     position: relative;
+    */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    /* width: 67%; */
 }
 
 .image-caption {
@@ -54,8 +67,8 @@ body {
 */
 
 .image-caption img {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
 }
 
 .image-caption .caption {
