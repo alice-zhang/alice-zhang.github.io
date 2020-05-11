@@ -101,7 +101,7 @@ body {
     color: #b1c06e;
 }
 
-.list.blue .group:hover {
+.list.blue .item:hover {
     background-color: #8ba4bb;
     color: #2c4554;
 }
